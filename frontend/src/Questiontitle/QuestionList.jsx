@@ -13,7 +13,7 @@ function QuestionList() {
         setData(res.data);
       })
       .catch(err => console.error('Error fetching data:', err));
-  }, []);
+  });
 
   return (
     <div>
@@ -21,10 +21,10 @@ function QuestionList() {
       <main>
         {data ? (
           <ul>
-            {data.map((item, index) => (
-              <li key={index}>
-                <Link to={`/question/${index + 1}`}>
-                  {`${index + 1}. ${item.question}`}
+            {data.map((item) => (
+              <li key={item.id}>
+                <Link to={`/question/${item.id}`}>
+                  {`${item.id}. ${item.question}`}
                 </Link>
               </li>
             ))}
