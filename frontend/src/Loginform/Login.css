@@ -1,0 +1,65 @@
+body{
+    background-color:  #eef2f6;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr
+{
+    background-color: white;
+    height: 300px;
+    margin:auto;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 15%;
+   
+}
+.image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.titi
+{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.logo
+{
+    width: 60px;
+}
+.welcome
+{
+    color: #0e78dc;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px ;
+    align-items: center;
+    text-align: center;
+}
+.google
+{
+    background-color: gainsboro;
+    display: flex;
+    width: 300px;
+    margin-left: 15%;
+    border: none;
+    background-color:#f8fafc;
+    padding: 10px 15px;
+    cursor: pointer;
+    justify-content: center;    
+    font-weight: bolder;
+}
+
+.infor
+{
+    color: gray;
+
+    font-weight: 500;
+    font-size: 13px;
+}

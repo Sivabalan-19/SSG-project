@@ -1,0 +1,35 @@
+.head{
+    
+    align-content: center;
+    padding: 20px 50px;
+}
+.head-c{
+
+    text-align: center;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.conatinerforc .row-1 ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;  
+    list-style: none; 
+    gap: 2rem; 
+}
+
+.containerforc .row-1 ul li{
+    text-decoration: none;
+}
+
+.view
+{
+    background-color: #0e78dc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
